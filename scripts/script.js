@@ -35,6 +35,27 @@ $('#change').attr('value', "change size");
 
 $('td').hover(function(){
 
+/*function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+$(this).css("background-color", getRandomColor());
+
+*/
+
+$(this).css("background-color", "black");
+
+});
+
+$('#rainbow').click(function(){
+
+$('td').hover(function(){
+
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
@@ -46,6 +67,7 @@ function getRandomColor() {
 
 $(this).css("background-color", getRandomColor());
 
+});
 });
 
 $('#reset').click(function(){
