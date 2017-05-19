@@ -1,0 +1,74 @@
+/*{
+	border: solid black 1px;
+}
+*/
+
+h1 {
+
+	color:black;
+	text-align:center;
+}
+
+td {
+
+	margin:0;
+	padding:0;
+	background-color:skyblue;
+	border:solid grey 1px;
+	
+}
+
+tr {
+
+	margin:0;
+	padding:0;
+	border:solid grey 1px;
+}
+
+#buttons {
+
+}
+
+#change{
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width:150px;
+	display:block;
+
+
+}
+
+#reset{
+
+	margin-top:0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width:150px;
+	display:block;
+
+}
+
+
+main {
+	margin-right: 100px;
+	margin-left: 100px;
+
+}
+
+
+#myTable {
+	margin: 0 auto;
+
+}
+
+/*
+
+div:hover {
+
+	background-color: black;
+}
+
+*/
